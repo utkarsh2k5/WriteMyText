@@ -1,0 +1,37 @@
+# ====== Python ======
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+eggs/
+*.egg-info/
+
+# Virtual environments
+venv/
+ENV/
+.env
+
+# BackEnd specific
+WriteMyText_backend/BackEnd/generated/
+WriteMyText_backend/BackEnd/__pycache__/
+WriteMyText_backend/BackEnd/*.pyc
+
+# ====== Node ======
+node_modules/
+WriteMyText_frotnend/node_modules/
+WriteMyText_frotnend/dist/
+
+# ====== Editor / OS ======
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
